@@ -1,0 +1,31 @@
+# 编译输出
+build/
+Debug/
+Release/
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# CubeMX 临时文件
+*.ioc.backup
+.mxproject/
+
+# IDE
+.idea/
+.vscode/
+*.uvprojx
+*.uvoptx
+
+# 系统
+Thumbs.db
+.DS_Store
+Drivers/
+Middlewares/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+*.uvguix.*
+*.dbgconf
+*.scvd
