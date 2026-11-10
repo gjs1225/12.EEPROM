@@ -30,8 +30,8 @@ void MX_SYS_Init(void)
 
   /** Disable the internal Pull-Up in Dead Battery pins of UCPD peripheral 
   */
-  LL_PWR_DisableDeadBatteryPD();
-
+  
+//删去了
 }
 
 /* USER CODE BEGIN 1 */
